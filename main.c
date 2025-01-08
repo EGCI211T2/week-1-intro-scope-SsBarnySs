@@ -5,7 +5,7 @@ void useLocal();
 void useStaticLocal();
 void useGlobal();
 
-int x=10;  //global -->1
+int x=1;  //global -->1
 
 int main(int argc, char **agrv)
 { //argument count  
@@ -14,7 +14,7 @@ int main(int argc, char **agrv)
 
    
    printf("Local x in main is %d \n",x);
-  
+ 
   
    {  //block start new scope
        int x=7;// hides both x in outer scope and global xor_eqconst_cast
